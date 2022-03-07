@@ -1,0 +1,7 @@
+When using this dataset, please cite the following paper:
+
+Ang Li, Peter Stuckey, Sven Koenig and T. K. Satish Kumar (2022). A FastMap-Based Algorithm for Block Modeling. Proceedings of the 19th International Conference on the Integration of Constraint Programming, Artificial Intelligence and Operations Research (CPAIOR-2022).
+
+The folders sparse_model1, dense_model1, and model2 contain the test cases used in the Table 3, Table 4, and Table 5, respectively, of the paper above.
+
+Each ".mat" file contains a single test case. It includes two variables "adj_mat" and "GT": (a) "adj_mat" is a adjacency matrix representing the graph of the test case; and (b) "GT" is an array storing the (ground-truth) membership of each vertex of the graph, i.e., GT[v] is the membership of the vertex v.
